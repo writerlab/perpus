@@ -1,7 +1,7 @@
 # Aplikasi Perpustakaan
 Progress belajar materi MVC matapelajaran PBO.
 
-# Jobsheet Video 📹
+# Videos 📹
 - [x] 1. Apa itu Django - [Tonton](https://youtu.be/Cj89fGNiMSk)
 - [x] 2. Workflow - [Tonton](https://youtu.be/xN8sAeMPsEg)
 - [x] 3. Menyiapkan Kebutuhan - [Tonton](https://youtu.be/5OAN7FhO-lw)
@@ -15,5 +15,5 @@ Progress belajar materi MVC matapelajaran PBO.
   - [x] 7.2 Django Template Language - [Tonton](https://youtu.be/amP6jUVhp2g)
   - [x] 7.3 Template Extending - [Tonton](https://youtu.be/fLOWCJYfGXQ)
 
-# Jobsheet Teks 📝
+# Jobsheets 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
