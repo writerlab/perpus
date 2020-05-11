@@ -14,7 +14,9 @@ Progress belajar materi MVC matapelajaran PBO.
   - [x] 7.1 Konfigurasi - [Tonton](https://youtu.be/5UScV1i0MoM)
   - [x] 7.2 Django Template Language - [Tonton](https://youtu.be/amP6jUVhp2g)
   - [x] 7.3 Template Extending - [Tonton](https://youtu.be/fLOWCJYfGXQ)
-- [x] 8. Static Files - [Tonton](https://youtu.be/YnUOG6Oor04)
+- [x] 8. Static Files
+  - [x] 8.1 Konfigurasi - [Tonton](https://youtu.be/YnUOG6Oor04)
+  - [x] 8.2 Setup Bootstrap - [Tonton](https://youtu.be/5JagJ4bQzBY)
 
 # Jobsheets 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
