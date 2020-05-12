@@ -17,6 +17,9 @@ Progress belajar materi MVC matapelajaran PBO.
 - [x] 8. Static Files
   - [x] 8.1 Konfigurasi - [Tonton](https://youtu.be/YnUOG6Oor04)
   - [x] 8.2 Setup Bootstrap - [Tonton](https://youtu.be/5JagJ4bQzBY)
+- [x] 9. Database
+  - [x] 9.1 Setup Database - [Tonton](https://youtu.be/VHe-SxvTPDk)
+  - [x] 9.2 Setup Database: MySQL - [Tonton](https://youtu.be/NE5oAwWPdVs)
 
 # Jobsheets 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
