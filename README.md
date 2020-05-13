@@ -20,6 +20,12 @@ Progress belajar materi MVC matapelajaran PBO.
 - [x] 9. Database
   - [x] 9.1 Setup Database - [Tonton](https://youtu.be/VHe-SxvTPDk)
   - [x] 9.2 Setup Database: MySQL - [Tonton](https://youtu.be/NE5oAwWPdVs)
+- [x] 10. Models
+  - [x] 10.1 Models - [Tonton](https://youtu.be/q7grGllxyxE)
+  - [x] 10.2 Models: ForeignKey - [Tonton](https://youtu.be/Iv1VKt4RHmw)
+- [ ] 11. Django Admin
+  - [ ] 11.1 Django Admin - Tonton
+  - [ ] 11.2 Django Admin: Model Admin - Tonton
 
 # Jobsheets 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
