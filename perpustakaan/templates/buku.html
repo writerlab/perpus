@@ -4,8 +4,8 @@
 
   <h2>Daftar Buku</h2>
 
-  {% for judul in title %}
-    <li>{{ judul }}</li>
+  {% for buku in books %}
+    <li>{{ buku.judul }}</li>
   {% endfor %}
 
   {{ penulis }}

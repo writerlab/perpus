@@ -23,9 +23,11 @@ Progress belajar materi MVC matapelajaran PBO.
 - [x] 10. Models
   - [x] 10.1 Models - [Tonton](https://youtu.be/q7grGllxyxE)
   - [x] 10.2 Models: ForeignKey - [Tonton](https://youtu.be/Iv1VKt4RHmw)
-- [ ] 11. Django Admin
-  - [ ] 11.1 Django Admin - Tonton
-  - [ ] 11.2 Django Admin: Model Admin - Tonton
+- [x] 11. Django Admin
+  - [x] 11.1 Django Admin - [Tonton](https://youtu.be/7vNQESIkPf4)
+  - [x] 11.2 Django Admin: Model Admin - [Tonton](https://youtu.be/V8hY2hzyJw4)
+- [x] 12. ORM - [Tonton](https://youtu.be/zoNk0dPikpg)
+
 
 # Jobsheets 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
