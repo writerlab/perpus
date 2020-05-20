@@ -27,6 +27,8 @@ Progress belajar materi MVC matapelajaran PBO.
   - [x] 11.1 Django Admin - [Tonton](https://youtu.be/7vNQESIkPf4)
   - [x] 11.2 Django Admin: Model Admin - [Tonton](https://youtu.be/V8hY2hzyJw4)
 - [x] 12. ORM - [Tonton](https://youtu.be/zoNk0dPikpg)
+- [x] 13. Forms
+  - [x] 13.1 Forms: ModelForm - [Tonton](https://youtu.be/DXXneMxdGEU)
 
 
 # Jobsheets 📝
