@@ -25,6 +25,7 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 | 11.2 | Django Admin: Model Admin | [Play](https://youtu.be/V8hY2hzyJw4) | 15 Mei 2020
 | 12. | ORM (Object-Relational Mapping) | [Play](https://youtu.be/zoNk0dPikpg) | 17 Mei 2020
 | 13.1 | Forms: ModelForm | [Play](https://youtu.be/DXXneMxdGEU) | 20 Mei 2020
+| 13.2 | Forms: Widgets | [Play](https://youtu.be/gHNEdANR4WQ) | 29 Mei 2020
 | ... | ... | ... | ...
 
 # Jobsheets (on progress) 📝
