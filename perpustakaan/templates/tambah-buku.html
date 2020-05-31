@@ -5,7 +5,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <form action="" method="post">
+      {% if pesan %}
+        <div class="alert alert-success">{{ pesan }}</div>
+      {% endif %}
+      
+      <form action="/tambah-buku/" method="post">
+        {% csrf_token %}
 
         {{ form.as_p }}
       

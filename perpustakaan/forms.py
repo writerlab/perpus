@@ -5,7 +5,7 @@ from perpustakaan.models import Buku
 class FormBuku(ModelForm):
   class Meta:
     model = Buku
-    exclude = ['penerbit']
+    fields = '__all__'
 
     widgets = {
       'judul' : forms.TextInput({'class':'form-control'}),
