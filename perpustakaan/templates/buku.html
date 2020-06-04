@@ -2,12 +2,33 @@
 
 {% block content %}
 
-  <h2>Daftar Buku</h2>
-
-  {% for buku in books %}
-    <li>{{ buku.judul }}</li>
-  {% endfor %}
-
-  {{ penulis }}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>JUDUL</th>
+            <th>PENULIS</th>
+            <th>PENERBIT</th>
+            <th>JUMLAH</th>
+            <th>KELOMPOK</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for buku in books %}
+          <tr>
+            <td>{{ buku.judul }}</td>
+            <td>{{ buku.penulis }}</td>
+            <td>{{ buku.penerbit }}</td>
+            <td>{{ buku.jumlah }}</td>
+            <td>{{ buku.kelompok_id }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
 
 {% endblock %}

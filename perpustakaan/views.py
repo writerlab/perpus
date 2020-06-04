@@ -3,7 +3,8 @@ from perpustakaan.models import Buku
 from perpustakaan.forms import FormBuku
 
 def buku(request):
-    books = Buku.objects.all()
+    # filter: tampilkan semua buku Produktif dan batasi sebanyak 4
+    books = Buku.objects.filter(kelompok_id__nama='Produktif')[:4]
 
     konteks = {
         'books': books,
