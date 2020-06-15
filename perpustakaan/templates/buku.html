@@ -5,6 +5,16 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
+      <h3>
+        Data Buku
+        <a href="{% url 'tambah_buku' %}" class="btn btn-primary">Tambah</a>
+      </h3>
+
+      {% for message in messages %}
+        {% if message %}
+          <div class="alert alert-success">{{ message }}</div>
+        {% endif %}
+      {% endfor %}
       <table class="table table-bordered table-striped">
         <thead>
           <tr>
@@ -13,16 +23,39 @@
             <th>PENERBIT</th>
             <th>JUMLAH</th>
             <th>KELOMPOK</th>
+            <th>ACTION</th>
           </tr>
         </thead>
         <tbody>
           {% for buku in books %}
           <tr>
-            <td>{{ buku.judul }}</td>
+            <td><a href="{% url 'ubah_buku' buku.id %}">{{ buku.judul }}</a></td>
             <td>{{ buku.penulis }}</td>
             <td>{{ buku.penerbit }}</td>
             <td>{{ buku.jumlah }}</td>
             <td>{{ buku.kelompok_id }}</td>
+            <td>
+              <button data-toggle="modal" data-target="#hapus-{{ buku.id }}" class="btn btn-danger">Hapus</button>
+            </td>
+
+            <div class="modal" id="hapus-{{ buku.id }}">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <div class="modal-title">
+                      <h3>Hapus</h3>
+                    </div>
+                  </div>
+                  <div class="modal-body">
+                    Apakah anda yakin ingin menghapus <strong>{{ buku.judul | upper }}</strong>?
+                  </div>
+                  <div class="modal-footer">
+                    <a href="{% url 'hapus_buku' buku.id %}" class="btn btn-danger">Hapus</a>
+                    <button class="btn btn-dark" data-dismiss="modal">Tidak</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </tr>
           {% endfor %}
         </tbody>

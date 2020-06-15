@@ -5,6 +5,8 @@
 <div class="container">
   <div class="row">
     <div class="col-md-4">
+      <h3>Tambah Buku</h3>
+      
       {% if pesan %}
         <div class="alert alert-success">{{ pesan }}</div>
       {% endif %}
@@ -15,7 +17,7 @@
         {{ form.as_p }}
       
         <button class="btn btn-primary">Tambah Buku</button>
-      
+        <a href="{% url 'buku' %}" class="btn btn-danger">Kembali</a>
       </form>
     </div>
   </div>

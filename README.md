@@ -29,6 +29,7 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 | 14.1 | CRUD: Menambah Data | [Play](https://youtu.be/ZWELAOzJhUM) | 1 Juni 2020
 | 14.2 | CRUD: Menampilkan Data | [Play](https://youtu.be/EYlFTIcnAXE) | 2 Juni 2020
 | 14.3 | CRUD: Mengubah Data | [Play](https://youtu.be/auZJ5GM5iTc) | 15 Juni 2020
+| 14.4 | CRUD: Hapus Data | [Play](https://youtu.be/EWLuwTeJjSA) | 15 Juni 2020
 | ... | ... | ... | ...
 
 # Jobsheets (on progress) 📝
