@@ -36,3 +36,22 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 
 # Jobsheets (on progress) 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
+
+# Installation
+### Prerequisite
+- Python 3.7.15 or later
+- Django 2.2.12 or later
+
+### Run this project
+- Clone/download this [repo](https://github.com/writerlab/perpus).
+```
+git clone https://github.com/writerlab/perpus
+```
+- Go to project
+```
+cd perpus
+```
+- Run project
+```
+python manage.py runserver
+```
