@@ -32,6 +32,7 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 | 14.4 | CRUD: Hapus Data | [Play](https://youtu.be/EWLuwTeJjSA) | 15 Juni 2020
 | 15. | Authentication | [Play](https://youtu.be/3xyYrYXMB_8) | 17 Juni 2020
 | 15.2 | Authentication: Mengakses Username di Template | [Play](https://youtu.be/4SXPDNdTgV8) | 24 Juni 2020
+| 16. | Membuat Form Sign Up | [Play](https://youtu.be/wStQuGwp5ZA) | 29 Juni 2020
 | ... | ... | ... | ...
 
 # Jobsheets (on progress) 📝
