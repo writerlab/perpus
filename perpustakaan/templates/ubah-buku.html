@@ -13,7 +13,7 @@
         {% endif %}
       {% endfor %}
 
-      <form action="{% url 'ubah_buku' buku.id %}" method="post">
+      <form action="{% url 'ubah_buku' buku.id %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
 
         {{ form.as_p }}
