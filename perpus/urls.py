@@ -14,6 +14,7 @@ urlpatterns = [
     path('masuk/', LoginView.as_view(), name='masuk'),
     path('keluar/', LogoutView.as_view(next_page='masuk'), name='keluar'),
     path('signup/', signup, name='signup'),
+    path('export/xls/', export_xls, name='export_xls'),
 ]
 
 if settings.DEBUG:

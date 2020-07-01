@@ -8,6 +8,7 @@
       <h3>
         Data Buku
         <a href="{% url 'tambah_buku' %}" class="btn btn-primary">Tambah</a>
+        <a href="{% url 'export_xls' %}" class="btn btn-success">Export .xls</a>
       </h3>
 
       {% for message in messages %}

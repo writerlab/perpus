@@ -1,10 +1,18 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, HttpResponse
 from perpustakaan.models import Buku
 from perpustakaan.forms import FormBuku
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.conf import settings
 from django.contrib.auth.forms import UserCreationForm
+from perpustakaan.resource import BukuResource
+
+def export_xls(request):
+    buku = BukuResource()
+    dataset = buku.export()
+    response = HttpResponse(dataset.xls, content_type='application/vnd.ms-excel')
+    response['Content-Disposition'] = 'attachment; filename="laporan buku.xls"'
+    return response
 
 @login_required(login_url=settings.LOGIN_URL)
 def signup(request):
