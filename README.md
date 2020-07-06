@@ -34,6 +34,8 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 | 15.2 | Authentication: Mengakses Username di Template | [Play](https://youtu.be/4SXPDNdTgV8) | 24 Juni 2020
 | 16. | Membuat Form Sign Up | [Play](https://youtu.be/wStQuGwp5ZA) | 29 Juni 2020
 | 17. | Upload File | [Play](https://youtu.be/BHUT6XGF4eE) | 1 Juli 2020
+| 18. | Export File | [Play](https://youtu.be/ICI6OXkr7Vk) | 3 Juli 2020
+| 19. | Virtual Environment | [Play](https://youtu.be/qGPSGuTqajo) | 6 Juli 2020
 | ... | ... | ... | ...
 
 # Jobsheets (on progress) 📝
