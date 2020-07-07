@@ -11,7 +11,7 @@
         <div class="alert alert-success">{{ pesan }}</div>
       {% endif %}
       
-      <form action="/tambah-buku/" method="post" enctype="multipart/form-data">
+      <form action="{% url 'tambah_buku' %}" method="post" enctype="multipart/form-data">
         {% csrf_token %}
 
         {{ form.as_p }}
