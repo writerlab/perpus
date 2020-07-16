@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h3>
+        Users
+        <a href="{% url 'signup' %}" class="btn btn-primary">Tambah</a>
+      </h3>
+
+      {% for message in messages %}
+        {% if message %}
+          <div class="alert alert-success">{{ message }}</div>
+        {% endif %}
+      {% endfor %}
+      <table class="table table-bordered table-striped">
+        <thead>
+          <tr>
+            <th>NO.</th>
+            <th>USERNAME</th>
+            <th>STAFF</th>
+            <th>SUPERUSER</th>
+            <th>ACTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for user in users %}
+          <tr>
+            <td>{{ forloop.counter }}.</td>
+            <td>{{ user.username }}</td>
+            <td>{{ user.is_staff }}</td>
+            <td>{{ user.is_superuser }}</td>
+            <td>
+              <a href="#" class="btn btn-danger">Hapus</a>
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

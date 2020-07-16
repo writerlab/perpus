@@ -1,6 +1,14 @@
-<center>
-  <h1>PERPUSTAKAAN</h1>
+<div class="jumbotron text-center text-white shadow-lg">
+  <h1>e-Perpus SMK Negeri 4</h1>
   {% if user.is_authenticated %}
-    <p>halo, <strong>{{ user }}</strong>! / <a href="{% url 'keluar' %}">keluar</a></p>
+    <p>halo, <strong>{{ user }}</strong>!</p>
+  
+    <nav class="nav justify-content-center">
+      <a href="{% url 'home' %}" class="nav-link text-white">Home</a>
+      <a href="{% url 'buku' %}" class="nav-link text-white">Buku</a>
+      <a href="{% url 'penerbit' %}" class="nav-link text-white">Penerbit</a>
+      <a href="{% url 'users' %}" class="nav-link text-white">User</a>
+      <a href="{% url 'keluar' %}" class="nav-link text-white">Keluar</a>
+    </nav>
   {% endif %}
-</center>
+</div>

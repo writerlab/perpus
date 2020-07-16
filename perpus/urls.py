@@ -5,6 +5,7 @@ from django.contrib.auth.views import LoginView, LogoutView
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('', home, name='home'),
     path('admin/', admin.site.urls),
     path('penerbit/', penerbit, name='penerbit'),
     path('buku/', buku, name='buku'),
@@ -14,6 +15,7 @@ urlpatterns = [
     path('buku/export/xls/', export_xls, name='export_xls'),
     path('auth/masuk/', LoginView.as_view(), name='masuk'),
     path('auth/keluar/', LogoutView.as_view(next_page='masuk'), name='keluar'),
+    path('user/', users, name='users'),
     path('user/add/', signup, name='signup'),
 ]
 

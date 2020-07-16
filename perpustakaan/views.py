@@ -6,7 +6,24 @@ from django.contrib.auth.decorators import login_required
 from django.conf import settings
 from django.contrib.auth.forms import UserCreationForm
 from perpustakaan.resource import BukuResource
+from django.contrib.auth.models import User
 
+
+def home(request):
+    template = 'home.html'
+    return render(request, template)
+
+
+@login_required(login_url=settings.LOGIN_URL)
+def users(request):
+    users = User.objects.all()
+    template = 'users.html'
+    context = {
+        'users':users,
+    }
+    return render(request, template, context)
+
+@login_required(login_url=settings.LOGIN_URL)
 def export_xls(request):
     buku = BukuResource()
     dataset = buku.export()
