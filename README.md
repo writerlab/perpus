@@ -36,7 +36,8 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 | 17. | Upload File | [Play](https://youtu.be/BHUT6XGF4eE) | 1 Juli 2020
 | 18. | Export File | [Play](https://youtu.be/ICI6OXkr7Vk) | 3 Juli 2020
 | 19. | Virtual Environment | [Play](https://youtu.be/qGPSGuTqajo) | 6 Juli 2020
-| ... | ... | ... | ...
+| 20.1 | Persiapan Deployment | [Play](https://youtu.be/VZGwILOsVxU) | 20 Juli 2020
+| 20.2 | Deployment | [Play](https://youtu.be/Gz038-K6Jvk) | 20 Juli 2020
 
 # Jobsheets (on progress) 📝
 [Menuju halaman](https://github.com/writerlab/jobsheets) 🚀
