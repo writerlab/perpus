@@ -1,3 +1,7 @@
+# 0. Create Server
+Dalam kasus ini, kalian harus membuat server sendiri, bisa menggunakan VirtualBox atau Komputer Fisik atau sewa VPS.
+Sistem operasi yang digunakan: Ubuntu 16.04 LTS.
+
 # 1. Update Install Python 3
 - [x] update
 - [x] install python3 nginx
