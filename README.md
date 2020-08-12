@@ -65,3 +65,6 @@ python manage.py migrate
 ```
 python manage.py runserver
 ```
+
+# Deploy App to Server
+Langkah-langkah ada di [gist](https://gist.github.com/HilmiZul/ced27b2759b380a5cbb1d794dc8f8ec9).
