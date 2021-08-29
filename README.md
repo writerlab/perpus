@@ -56,6 +56,10 @@ git clone https://github.com/writerlab/perpus
 ```
 cd perpus
 ```
+- Install requirements
+```
+pip install -r packages.txt
+```
 - Migrate
 ```
 python manage.py makemigrations
