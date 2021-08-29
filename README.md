@@ -45,7 +45,7 @@ Projek ini dipecah menjadi beberapa bagian yang dibuat kedalam bentuk series vid
 # Installation
 ### Prerequisite
 - Python 3.7.15 or later
-- Django 2.2.12 or later
+- Django 2.2.12 or later (2.x.x)
 
 ### Run this project
 - Clone/download this [repo](https://github.com/writerlab/perpus).
